@@ -24,11 +24,15 @@ var (
 	paramPbtOut            = flag.String("pbt_out", "", "output proto text format (*.pbt)")
 	paramLuaOut            = flag.String("lua_out", "", "output lua code (*.lua)")
 	paramJsonOut           = flag.String("json_out", "", "output json format (*.json)")
-	paramCSharpOut         = flag.String("csharp_out", "", "output c# class and deserialize code (*.cs)")
 	paramGoOut             = flag.String("go_out", "", "output golang code (*.go)")
 	paramBinaryOut         = flag.String("binary_out", "", "output binary format(*.bin)")
 	paramTypeOut           = flag.String("type_out", "", "output table types(*.json)")
 	paramCppOut            = flag.String("cpp_out", "", "output c++ format (*.cpp)")
+	paramByteOut           = flag.String("byte_out", "", "output binary format(*.bytes)")
+	// Add by bob
+	paramCSharpOut  = flag.String("csharp_out", "", "output c# class and deserialize code (*.cs)")
+	paramGCSharpOut = flag.String("g_csharp_out", "", "output c# Global class and deserialize code (*.cs)")
+	paramLogEnable  = flag.Bool("log_enable", true, "enable log or not")
 )
 
 // 特殊文件格式参数

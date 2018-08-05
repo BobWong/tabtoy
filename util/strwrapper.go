@@ -2,6 +2,7 @@ package util
 
 import (
 	"fmt"
+	"unicode"
 )
 
 func StringEscape(s string) string {
@@ -49,4 +50,20 @@ func StringEscape(s string) string {
 
 	return fmt.Sprintf("\"%s\"", string(b))
 
+}
+
+// 首字母大写
+func UpperFirstWord(str string) string {
+	for i, v := range str {
+		return string(unicode.ToUpper(v)) + str[i+1:]
+	}
+	return ""
+}
+
+// 首字母小写
+func LowerFirstWord(str string) string {
+	for i, v := range str {
+		return string(unicode.ToLower(v)) + str[i+1:]
+	}
+	return ""
 }

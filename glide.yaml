@@ -1,0 +1,15 @@
+package: github.com/BobWong/tabtoy
+import:
+- package: github.com/davyxu/golexer
+- package: github.com/davyxu/golog
+- package: github.com/davyxu/tabtoy
+  subpackages:
+  - util
+  - v2
+  - v2/example/golang/table
+  - v2/filter
+  - v2/i18n
+  - v2/model
+  - v2/printer
+- package: github.com/pkg/errors
+- package: github.com/tealeg/xlsx

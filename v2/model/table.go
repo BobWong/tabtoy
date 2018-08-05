@@ -44,3 +44,12 @@ func (self *Table) Name() string {
 func NewTable() *Table {
 	return &Table{}
 }
+
+func (self *Record) FindNodeByOrder(order int32) *Node {
+	for _, node := range self.Nodes {
+		if node.Order == order {
+			return node
+		}
+	}
+	return nil
+}

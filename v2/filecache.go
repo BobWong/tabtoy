@@ -28,7 +28,6 @@ func cacheFile(g *printer.Globals) (fileObjByName map[string]*File) {
 
 	var fileObjByNameGuard sync.Mutex
 	fileObjByName = map[string]*File{}
-
 	log.Infof("==========%s==========", i18n.String(i18n.Run_CacheFile))
 
 	filelist := getFileList(g)

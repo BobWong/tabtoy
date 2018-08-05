@@ -3,8 +3,11 @@ package main
 import (
 	"flag"
 	"fmt"
-	"github.com/davyxu/golog"
 	"os"
+
+	"github.com/davyxu/golog"
+	"github.com/davyxu/tabtoy/v2"
+	"github.com/davyxu/tabtoy/v2/printer"
 )
 
 var log = golog.New("main")
@@ -23,14 +26,12 @@ func main() {
 		fmt.Printf("%s, %s", Version_v2, Version_v3)
 		return
 	}
+	printer.GetLog().SetEnable(*paramLogEnable)
+	v2.GetLog().SetEnable(*paramLogEnable)
 
 	switch *paramMode {
-	case "v3":
-		V3Entry()
 	case "exportorv2", "v2":
 		V2Entry()
-	case "v2tov3":
-		V2ToV3Entry()
 	default:
 		fmt.Println("--mode not specify")
 		os.Exit(1)

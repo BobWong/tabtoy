@@ -2,10 +2,11 @@ package main
 
 import (
 	"flag"
+	"os"
+
 	"github.com/davyxu/tabtoy/v2"
 	"github.com/davyxu/tabtoy/v2/i18n"
 	"github.com/davyxu/tabtoy/v2/printer"
-	"os"
 )
 
 func V2Entry() {
@@ -65,6 +66,14 @@ func V2Entry() {
 
 	if *paramTypeOut != "" {
 		g.AddOutputType("type", *paramTypeOut)
+	}
+
+	if *paramGCSharpOut != "" {
+		g.AddOutputType("gcs", *paramGCSharpOut)
+	}
+
+	if *paramByteOut != "" {
+		g.AddOutputType("bytes", *paramByteOut)
 	}
 
 	if !v2.Run(g) {

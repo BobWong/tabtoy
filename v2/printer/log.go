@@ -5,3 +5,7 @@ import (
 )
 
 var log *golog.Logger = golog.New("printer")
+
+func GetLog() *golog.Logger {
+	return log
+}
