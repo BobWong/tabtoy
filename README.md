@@ -1,6 +1,17 @@
 # tabtoy
 
-游戏客户端,服务器的策划表格数据导出
+游戏客户端,服务器的策划表格数据导出,基于黑猫的原版[Tabtoy](https://github.com/davyxu/tabtoy)做了如下修改
+
+* 去除暂时没有用到的v1,v3版本,只保留v2
+* 修改为纵向读取数据,减少读取次数
+* 导出时用默认值自动补充未填写字段
+* 增加文件帮助类
+* 增加str帮助类
+* 修改C#读取代码
+* csharp缓存去读粒子缓存读取
+* 新增导出工程export_tool
+
+> 修改动机,项目用到跨域调用,在跨域的时候应该尽量减少调用次数,采用纵向读取可以显著降低读取时的调用频率
 
 ![tabtoylogo](doc/logo.png)
 
@@ -109,7 +120,7 @@
 	
 * 手动编译获取最新版
 	
-	go get -u -v github.com/davyxu/tabtoy
+	go get -u -v github.com/BobWong/tabtoy
 	
 ### 编写导出命令行
 
