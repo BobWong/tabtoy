@@ -125,6 +125,15 @@ func writeTableQBinary(tabStream *Stream, tab *model.Table, index int32) bool {
 							continue
 						}
 						if structNode.Child[structNodeIndex].SugguestIgnore {
+							// 说明属性缺失
+							// 写入默认值
+							curFieldType := structNode.Child[structNodeIndex].Type
+
+							defaultValue := &model.Node{}
+							// 去读取@type表格的默认值
+							defaultValue.Value = structNode.Child[structNodeIndex].Meta.GetString("Default")
+							arrayStreams[i].WriteNodeValue(curFieldType, defaultValue)
+							log.Infof("属性缺失 : %s \n\r", defaultValue.Value)
 							continue
 						}
 						// 写入字段索引
