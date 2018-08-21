@@ -196,3 +196,5 @@ v2/example/cpp/.vs
 *.db
 v3/table/data_gen.json
 v2tov3/example/*.xlsx
+tabtoy
+.idea

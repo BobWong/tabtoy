@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/davyxu/golog"
-	"github.com/davyxu/tabtoy/v2"
-	"github.com/davyxu/tabtoy/v2/printer"
+	"github.com/BobWong/golog"
+	"github.com/BobWong/tabtoy/v2/printer"
+	"github.com/BobWong/tabtoy/v2"
 )
 
 var log = golog.New("main")
@@ -30,7 +30,7 @@ func main() {
 	v2.GetLog().SetEnable(*paramLogEnable)
 
 	switch *paramMode {
-	case "exportorv2", "v2":
+	case "v2":
 		V2Entry()
 	default:
 		fmt.Println("--mode not specify")

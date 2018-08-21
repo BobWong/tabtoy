@@ -1,7 +1,7 @@
 package printer
 
 import (
-	"github.com/davyxu/golog"
+	"github.com/BobWong/golog"
 )
 
 var log *golog.Logger = golog.New("printer")

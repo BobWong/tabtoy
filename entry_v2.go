@@ -4,9 +4,9 @@ import (
 	"flag"
 	"os"
 
-	"github.com/davyxu/tabtoy/v2"
-	"github.com/davyxu/tabtoy/v2/i18n"
-	"github.com/davyxu/tabtoy/v2/printer"
+	"github.com/BobWong/tabtoy/v2"
+	"github.com/BobWong/tabtoy/v2/i18n"
+	"github.com/BobWong/tabtoy/v2/printer"
 )
 
 func V2Entry() {

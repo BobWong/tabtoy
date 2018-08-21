@@ -1,6 +1,6 @@
 package v2
 
-import "github.com/davyxu/golog"
+import "github.com/BobWong/golog"
 
 var log = golog.New("exportorv2")
 

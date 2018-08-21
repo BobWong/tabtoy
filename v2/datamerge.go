@@ -1,8 +1,8 @@
 package v2
 
 import (
-	"github.com/davyxu/tabtoy/util"
-	"github.com/davyxu/tabtoy/v2/model"
+	"github.com/BobWong/tabtoy/util"
+	"github.com/BobWong/tabtoy/v2/model"
 )
 
 func structFieldHasDefaultValue(structFD *model.FieldDescriptor) bool {

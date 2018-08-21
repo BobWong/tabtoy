@@ -7,8 +7,8 @@ import (
 	"io/ioutil"
 	"strconv"
 
-	"github.com/davyxu/tabtoy/v2/i18n"
-	"github.com/davyxu/tabtoy/v2/model"
+	"github.com/BobWong/tabtoy/v2/i18n"
+	"github.com/BobWong/tabtoy/v2/model"
 	"os"
 	"path/filepath"
 )
