@@ -76,6 +76,10 @@ func V2Entry() {
 		g.AddOutputType("bytes", *paramByteOut)
 	}
 
+	if *paramTsOut != "" {
+		g.AddOutputType("ts", *paramTsOut)
+	}
+
 	if !v2.Run(g) {
 		os.Exit(1)
 	}

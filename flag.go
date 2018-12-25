@@ -29,6 +29,7 @@ var (
 	paramTypeOut           = flag.String("type_out", "", "output table types(*.json)")
 	paramCppOut            = flag.String("cpp_out", "", "output c++ format (*.cpp)")
 	paramByteOut           = flag.String("byte_out", "", "output binary format(*.bytes)")
+	paramTsOut           = flag.String("ts_out", "", "output ts format(*.ts)")
 	// Add by bob
 	paramCSharpOut  = flag.String("csharp_out", "", "output c# class and deserialize code (*.cs)")
 	paramGCSharpOut = flag.String("g_csharp_out", "", "output c# Global class and deserialize code (*.cs)")

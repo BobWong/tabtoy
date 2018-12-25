@@ -36,7 +36,7 @@ type Globals struct {
 
 func (self *Globals) PreExport() bool {
 
-	// 当合并结构名没有指定时, 对于代码相关的输出器, 要报错
+	// 当合并结构名没有指定时, 对于代码相关的输出器, 要报错,C#和proto用到
 	if self.CombineStructName == "" && self.hasAnyPrinter(".proto", ".cs") {
 		log.Errorf("%s", i18n.String(i18n.Globals_CombineNameLost))
 		return false

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 )
-
+// 获取xlsx的文件,并加入到ret这个容器中
 func getFileList(g *printer.Globals) (ret []string) {
 	// 合并类型
 	for _, in := range g.InputFileList {

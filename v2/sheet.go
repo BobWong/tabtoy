@@ -21,7 +21,6 @@ type Sheet struct {
 func (self *Sheet) GetRC() (int, int) {
 
 	return self.Row + 1, self.Column + 1
-
 }
 
 // 获取单元格 cursor=行,  index=列
