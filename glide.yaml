@@ -1,4 +1,4 @@
-package: github.com/bobwong89757/tabtoy
+package: tabtoy
 import:
 - package: github.com/davyxu/golexer
 - package: github.com/bobwong89757/golog

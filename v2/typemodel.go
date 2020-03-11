@@ -3,8 +3,8 @@ package v2
 import (
 	"strconv"
 
-	"github.com/bobwong89757/tabtoy/v2/i18n"
-	"github.com/bobwong89757/tabtoy/v2/model"
+	"tabtoy/v2/i18n"
+	"tabtoy/v2/model"
 	"strings"
 )
 

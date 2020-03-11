@@ -6,8 +6,8 @@ import (
 	"os"
 
 	"github.com/bobwong89757/golog"
-	"github.com/bobwong89757/tabtoy/v2"
-	"github.com/bobwong89757/tabtoy/v2/printer"
+	"tabtoy/v2"
+	"tabtoy/v2/printer"
 )
 
 var log = golog.New("main")

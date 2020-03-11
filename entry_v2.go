@@ -3,10 +3,10 @@ package main
 import (
 	"flag"
 	"os"
+	"tabtoy/v2/printer"
 
-	"github.com/bobwong89757/tabtoy/v2"
-	"github.com/bobwong89757/tabtoy/v2/i18n"
-	"github.com/bobwong89757/tabtoy/v2/printer"
+	"tabtoy/v2"
+	"tabtoy/v2/i18n"
 )
 
 func V2Entry() {

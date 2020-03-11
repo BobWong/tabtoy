@@ -1,11 +1,5 @@
-github.com/BobWong/golog v0.0.0-20181123013700-3a2ac0a8ba7c h1:bSoXX8glijr42QKAsKBDnXJJ1QpvGDpnRGCmHPgIj9E=
-github.com/BobWong/golog v0.0.0-20181123013700-3a2ac0a8ba7c/go.mod h1:52Qh7n5/qxqyLUgdfSrW89bPypQgVVp5xmaivIxD1R0=
-github.com/BobWong/tabtoy v0.0.0-20181225130631-7d424f81b7c3 h1:3buH+tFKmG+1CKbcrD5rXUbcsUWyK5kMUyL6WM1CSvA=
-github.com/BobWong/tabtoy v0.0.0-20181225130631-7d424f81b7c3/go.mod h1:Qrkffa6Wj6lUsbFfHJw/lyoO1zR1wadRYZBY/j/hd+A=
 github.com/bobwong89757/golog v0.0.0-20181123013700-3a2ac0a8ba7c h1:4qVL9x4wWelbjyxf4AmEr5R9EOnmA+WXNomvKmtAZVA=
 github.com/bobwong89757/golog v0.0.0-20181123013700-3a2ac0a8ba7c/go.mod h1:llAyBWiO/AWi3bS1nki/pVpDswqkvjyvnC6NwKXCeio=
-github.com/bobwong89757/tabtoy v0.0.0-20181225130631-7d424f81b7c3 h1:Vg2X1Fso2CFjh/bjBH4/So8rrti2kf7MtLb81HKtwrI=
-github.com/bobwong89757/tabtoy v0.0.0-20181225130631-7d424f81b7c3/go.mod h1:4lIzQAD9OppiXRjm0AntMwdD90navrOcRJgTeYx+knQ=
 github.com/davyxu/golexer v0.1.0 h1:PFavbgNV8PUH2HPU1G3o0QMcNJ3I4BkL8esbeenTyMU=
 github.com/davyxu/golexer v0.1.0/go.mod h1:K/1PVWqaQEwMs+N+VvaoS66o1BAAwso+jEgXKBIa8QY=
 github.com/kr/pretty v0.1.0/go.mod h1:dAy3ld7l9f0ibDNOQOHHMYYIIbhfbHSm3C4ZsoJORNo=

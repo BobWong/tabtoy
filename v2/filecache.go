@@ -1,8 +1,8 @@
 package v2
 
 import (
-	"github.com/bobwong89757/tabtoy/v2/i18n"
-	"github.com/bobwong89757/tabtoy/v2/printer"
+	"tabtoy/v2/i18n"
+	"tabtoy/v2/printer"
 	"path/filepath"
 	"strings"
 	"sync"

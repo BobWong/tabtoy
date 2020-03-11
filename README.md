@@ -120,7 +120,7 @@
 	
 * 手动编译获取最新版
 	
-	go get -u -v github.com/bobwong89757/tabtoy
+	go get -u -v tabtoy
 	
 ### 编写导出命令行
 
