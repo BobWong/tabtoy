@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/BobWong/golog"
-	"github.com/BobWong/tabtoy/v2/printer"
-	"github.com/BobWong/tabtoy/v2"
+	"github.com/bobwong89757/golog"
+	"github.com/bobwong89757/tabtoy/v2"
+	"github.com/bobwong89757/tabtoy/v2/printer"
 )
 
 var log = golog.New("main")
@@ -16,7 +16,6 @@ const (
 	Version_v2 = "2.9.1"
 	Version_v3 = "3.0.0"
 )
-
 
 func main() {
 

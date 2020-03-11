@@ -1,7 +1,7 @@
-package: github.com/BobWong/tabtoy
+package: github.com/bobwong89757/tabtoy
 import:
 - package: github.com/davyxu/golexer
-- package: github.com/BobWong/golog
+- package: github.com/bobwong89757/golog
 - package: github.com/davyxu/tabtoy
   subpackages:
   - util

@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/BobWong/tabtoy/util"
+	"github.com/bobwong89757/tabtoy/util"
 )
 
 func main() {
